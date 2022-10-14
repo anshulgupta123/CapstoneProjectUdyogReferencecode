@@ -1,0 +1,115 @@
+.loginregfrm {
+    background: #00000045;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+
+    position: relative;
+    right: -100%;
+    -webkit-animation: loginslide 0.7s forwards;
+    animation: loginslide 0.7s forwards;
+}
+
+@-webkit-keyframes loginslide {
+    100% { right: 0; }
+}
+
+@keyframes loginslide {
+    100% { right: 0; }
+}
+
+.loginregfrmModal {
+    background: linear-gradient(183deg, #0B409C, #000000);
+}
+
+.loginredirectlink {
+    color: white;
+}
+
+.loginredirectlink:hover {
+    color: #ffc107;
+}
+
+.loginregfrmModal .form-control,
+.form-select {
+    height: 3em;
+}
+
+.loginfrmtab .nav-link.active {
+    border-radius: 30px;
+    background: #ffc107;
+    border-color: #dfaa0e;
+    color: black;
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+.loginfrmtab>li {
+    padding: 5px;
+}
+
+.loginfrmtab .nav-link {
+    border-radius: 30px;
+    background: #0d6efd;
+    border-color: #0951bd;
+    color: #FFE867;
+    font-weight: 700;
+}
+
+.removenumberarror::-webkit-outer-spin-button,
+.removenumberarror::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.removenumberarror {
+  -moz-appearance: textfield;
+}
+
+.custom-shape-divider-top-1663144222 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1663144222 svg {
+    position: relative;
+    display: block;
+    width: calc(227% + 1.3px);
+    height: 107px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1663144222 .shape-fill {
+    fill: #0B409C;
+}
+
+
+.login-cmp-logo{
+    position: absolute;
+    z-index: 1;
+    top:10px;
+    left: 50px;
+    width: auto;
+    height: 60px;
+
+}
+
+.login-alert{
+    position: absolute;
+    z-index: 9999;
+    min-width: 30%;
+    top: 5%;
+}
+
+.login-alert-overlap{
+    width: 100%;
+    height: 100%;
+    background: #00000070;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}

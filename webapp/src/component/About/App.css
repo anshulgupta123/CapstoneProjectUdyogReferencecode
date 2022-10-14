@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+.qsb-header-container {
+    margin: 52px 0 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.qsb-header-container .qsb-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    color: #1b2437;
+    margin-bottom: 6px;
+    font-family: "Roboto Slab";
+}
+.qsb-header-container .qsb-byLine {
+    font-size: 17px;
+    line-height: 24px;
+    color: #8292b4;
+    font-family: "Inter";
+    margin-bottom: 15px;
+}
+.qsb-header-container p{
+    color: black;
+    font-size: 20px;
+}
+.companiesClass{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+.compCard{
+   height: 100px;
+   margin: 50px;
+    
+}  
+.compCard h4{
+    margin-top: 70px;
+   
+   
+}
+.clogo{
+    max-height: 100px;
+}
+.cname{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+
+}
+.left-section {
+   
+    width: 420px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.role-img {
+    height: 103px;
+    width: auto;
+}
+.left-section .heading {
+    width: 275px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 40px;
+    color: #1b2437;
+}
+.left-section .sub-heading {
+    margin-top: 8px;
+    width: 251px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: #8292b4;
+}
+.skillClass{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.right-section,.right-section2{
+    margin-top: 50px;
+}
+.right-section li{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+.right-section2 li{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+.headline{
+
+        font-size: 27px;
+        line-height: 50px;
+        text-align: center;
+        font-weight: 700;
+        color: #1B2437;
+    
+}
+.nI-gNb-followus a{
+    margin-left: 30px;
+    margin-top: 30px;
+}

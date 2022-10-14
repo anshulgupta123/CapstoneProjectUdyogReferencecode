@@ -1,0 +1,46 @@
+
+.jp-i2-email{
+    padding:10px;
+    width: 850px;
+    margin: 22px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 2px;
+ border-color: black;
+ border: 1px solid;
+}
+.jp-i2-D{
+    padding:40px;
+    width: 850px;
+    margin: 22px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 2px;
+
+}
+.Head{
+    text-align: center;
+    color:black; 
+    margin-right: 200px;
+}
+#jp-i2-2{
+    color:red
+}
+
+/* #pbn{margin-left: 770px;
+} */
+#i-m-l{
+   
+    margin-left: 350px;
+
+}
+#bt-2{
+    margin-left: 770px;
+
+}
+
+.imgJPlogo{
+    max-width:100px;
+    max-height:100px;
+    
+}

@@ -1,0 +1,216 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.top-style {
+    height: 60vh;
+    background-color: var(--slider);
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    position: relative;
+    padding: 30px;
+}
+
+.first-heading {
+    color: white;
+    font-size: 50px;
+}
+
+.left-style {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    justify-content: center;
+}
+
+.top-style-search {
+    position: relative;
+    z-index: 1;
+    width: 120%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 1px 3px 4px #b5c2da;
+}
+
+.mainImg {
+    width: 40rem;
+    /* background: url("https://images.pexels.com/photos/927451/pexels-photo-927451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border: 10px solid white;
+    height: 70vh;
+    border-radius: 100px 0px 100px 0;
+
+}
+
+.middle-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    align-items: center;
+}
+
+.company-carousal {
+    width: 50%;
+}
+
+.slick-arrow {
+    color: blue;
+    background-color: black;
+}
+
+.comp-card {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10rem;
+    height: 12rem;
+    /* align-items: center; */
+    box-shadow: 2px 0px 5px 0px #abbfe0;
+    border-radius: 7px;
+}
+
+.logo-card {
+    width: 90px;
+    height: 40px;
+}
+
+.box-text {
+    color: #b5c2da;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.btn-carousal {
+    border: none;
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: var(--header);
+    color: white;
+}
+
+.skill-card {
+    background-color: var(--base);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10rem;
+    margin-right: 2rem;
+    align-items: center;
+    box-shadow: 2px 0px 5px 0px #abbfe0;
+    border-radius: 7px;
+}
+
+.rightArrow {
+    background-color: #10316b;
+    border-radius: 50%;
+    width: 25px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middlediv {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    padding: 30px 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.skills {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.skilltitle {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 40px;
+    color: #003096;
+}
+
+.slick-next,
+.slick-prev {
+    background-color: black;
+    border: 1px solid red;
+}
+
+.slick-prev:before {
+    background-color: #10316b;
+    border-radius: 50%;
+}
+
+.slick-next:before {
+
+    background-color: #10316b;
+    border-radius: 50%;
+
+}
+
+.slick-list {
+    /* Show slides that would otherwise be hidden off-screen */
+    overflow: visible;
+}
+
+.skillpic {
+    background: url(https://blog.vantagecircle.com/content/images/2021/05/Organizational-Skills-Efficiency.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 25rem;
+}
+
+.quotesContainer{
+    width: 100%;
+    height: 40vh;
+    background:url("https://cdni.iconscout.com/illustration/free/thumb/business-leader-2080772-1753761.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.068);
+    position: relative;
+    
+}
+
+.quotesCarousal{
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carousel-inner-m {
+    width: 40vw;
+}
+
+.quotesImg{
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.quotesText{
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.custom-shape-divider-up{
+    fill: var(--slider);
+}

@@ -1,0 +1,36 @@
+
+.feedbackThanks-msg {
+    color: #4caf50;
+    background-color: rgba(76, 175, 80, 0.1411764705882353);
+    border-left: 3px solid #4caf50;
+    border-radius: 20px;
+}
+
+.feedbackErr-msg {
+    color: #af4c4c;
+    background-color: rgba(175, 76, 76, 0.141);
+    border-left: 3px solid #af4c4c;
+    border-radius: 20px;
+}
+
+.star-rating input {
+    display: none;
+}
+.star-rating label {
+    padding: 5px;
+    float: right;
+    font-size: 25px;
+    color: #eee;
+}
+.star-rating input:not(:checked) ~ label:hover,
+.star-rating input:not(:checked) ~ label:hover ~ label {
+    color: #ffc107;
+}
+.star-rating input:checked ~ label {
+    color: #ffc107;
+}
+
+
+.feedback-cmplogo{
+    max-height: 150px;
+}

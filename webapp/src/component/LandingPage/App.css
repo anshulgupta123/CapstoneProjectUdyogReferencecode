@@ -1,0 +1,52 @@
+.mainLanding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(180deg,#09f3f356,rgba(32, 59, 179, 0.322)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT80ywUFsKePze33KTBfgQgDPtzQRw0TNTGlQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.subLanding{
+    width: 50vw;
+    align-items: center;
+}
+.lHeading{
+    margin: 10px;
+    font-weight: 600;
+    box-sizing: border-box;
+
+}
+.lLogin{
+    height: 50px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: var(--header);
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+
+}
+.lLogin:hover{
+    border: 2px solid var(--header);
+    background-color: white;
+    color: var(--header);
+}
+.lSignup{
+    height: 50px;
+    width: 120px;
+    border: 2px solid var(--header);
+    border-radius: 10px;
+    background-color: white;
+    color: var(--header);
+    margin: 10px;
+    font-size: 25px;
+}
+.lSignup:hover{
+    border: 2px solid white;
+    background-color: var(--header);
+    color: white;
+}

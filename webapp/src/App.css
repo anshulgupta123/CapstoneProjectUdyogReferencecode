@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --base: #F2F7FF;
+  --slider:#0B409C;
+  --header:#10316B;
+  --highlight:#FFE867;
+}
+.body{
+  font-family: 'Roboto', sans-serif;
+
+}
+a{
+  text-decoration: none;
+}
+.mainfooter{
+  position: relative;
+  top: 100px;
+}

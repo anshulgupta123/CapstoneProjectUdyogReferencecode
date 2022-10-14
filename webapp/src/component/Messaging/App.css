@@ -1,0 +1,119 @@
+.mainMsgDiv{
+    height: 700px;
+    width: 15%;
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+   flex-direction: column;
+    margin-top: 30px;
+    /* border: 2px gray solid; */
+}
+.chatDiv{
+    height:50px;
+    width: 100%;
+    /* border: 1px var(--header) solid; */
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    /* margin-left: 10px; */
+}
+.chatDiv button{
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(83, 174, 248, 0.247);
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+.addUser{
+    display: flex;
+   
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+}
+.searchUser{
+    width: 68%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.newChat{
+    height: 40px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: var(--slider);
+    box-sizing: border-box;
+    color: white;
+    font-size: 25px;
+}
+.mainDiv1{
+    display: flex;
+    justify-content: center;
+}
+.msgDisplay{
+    height: 600px;
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+/* float: right; */
+    margin-top: 30px;
+   top: 100px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 20px;
+}
+.mText{
+    background-color: rgba(0, 238, 255, 0.151);
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.msgSender{
+    font-size: 15px;
+    padding: 10px;
+}
+.msgEnter{
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+}
+.msgText{
+    height: 50px;
+    width: 600px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.msgSubmit{
+    height: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+    width: 150px;
+    background-color: var(--slider);
+    color: white;
+    border-radius: 15px;
+
+}
+.mRight{
+    text-align: end;
+}
+.tRight{
+    padding:5px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:rgba(99, 133, 207, 0.39);
+}
+.tLeft{
+    padding:5px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:rgba(199, 191, 191, 0.527);
+}
+/* .mleft{
+    float: left;
+    
+} */
+.chatDivTab{
+    height: 30px;
+}

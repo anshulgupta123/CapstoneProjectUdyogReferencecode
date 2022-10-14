@@ -1,0 +1,102 @@
+version: "3"
+services:
+ mongocontainer7000:
+  image: mongo:latest
+  container_name: mongocontainer7000
+  hostname: localhost
+  restart: always
+  ports:
+   - 27017:27017
+ rabbitmq:
+  image: rabbitmq:3-management
+  container_name: rabbitmq
+  ports:
+    - "5672:5672" #JMS Port
+    - "15672:15672" #Management Port - default user:pass = guest:guest 
+ mysqlcontainer7000:
+  image: mysql:latest
+  container_name: mysqlcontainer7000
+  hostname: localhost
+  restart: always
+  ports:
+   - 3306:3306
+  environment:
+      MYSQL_ROOT_PASSWORD: 'Anshul@8445461833'
+      MYSQL_USERNAME: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"   
+ userserviceudyog:
+  build: user-service/
+  container_name: userserviceudyog
+  ports:
+   - 8765:8765
+  links:
+   - mongocontainer7000
+   - rabbitmq
+   - eurekaserver    
+ jobserviceudyog:
+  build: job-service/
+  container_name: jobserviceudyog
+  ports:
+   - 8085:8085
+  links:
+   - mongocontainer7000
+   - rabbitmq
+   - eurekaserver    
+ authservice:
+  build: authentication-service/
+  container_name: authservice
+  ports:
+   - 8089:8089
+  environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqlcontainer7000:3306/anshul100?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+  depends_on:
+       - mysqlcontainer7000
+  links:
+   - mysqlcontainer7000
+   - rabbitmq
+   - eurekaserver    
+ apigatewayservice:
+  build: api-gateway/
+  container_name: apigatewayservice
+  ports:
+   - 8080:8080
+  links:
+   - eurekaserver    
+ eurekaserver:
+  build: eureka-server/
+  container_name: eurekaserver
+  ports:
+   - 8761:8761
+ chatservice:
+  build: chat-service/
+  container_name: chatservice
+  ports:
+   - 8081:8081
+  links:
+   - mysqlcontainer7000
+   - eurekaserver
+ ratingservice:
+  build: rating-service/
+  container_name: ratingservice
+  ports:
+   - 8084:8084
+  links:
+   - mysqlcontainer7000
+   - eurekaserver 
+ emailservice:
+  build: email-service/
+  container_name: emailservice
+  ports:
+   - 8083:8083
+  links:
+   - rabbitmq
+   - eurekaserver
+ webappudyog:
+  build: product-webapp/
+  container_name: webappudyog
+  ports:
+   - 4200:4200
+  links:
+   - eurekaserver
+      
+    

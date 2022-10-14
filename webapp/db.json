@@ -1,0 +1,313 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin admin",
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "",
+      "state": "Rajasthan",
+      "city": "Jaipur",
+      "pincode": "305001",
+      "userType": "employer"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "email": "john@gmail.com",
+      "password": "john@123",
+      "mobile": "",
+      "state": "Rajasthan",
+      "city": "Jaipur",
+      "pincode": "305001",
+      "userType": "jobseeker"
+    }
+  ],
+  "jobApplied": [
+    {
+      "id": 1,
+      "position": "UI Developer",
+      "skillset": "HTML,CSS3,Bootstrap,JavaScript",
+      "Package": "1 - 3 Lakh",
+      "expirydate": "21/9/2022",
+      "experiencedRequired": "1 to 3 years",
+      "expecteddateofjoining": "17/9/2022",
+      "noofemployeesrequired": "4",
+      "status": "open",
+      "description": "This position is responsible for the design and development ",
+      "location": "Hyderabad,Noida",
+      "company": "Globallogic",
+      "companyUrl": "https://www.globallogic.com/in/",
+      "companylogo": "https://seeklogo.com/images/G/global-logic-logo-2A1079EB9D-seeklogo.com.png",
+      "employermail": "bavisetti.ashok@gmail.com"
+    },
+    {
+      "id": 2,
+      "position": "SoftwareEngineer",
+      "skillset": "React.JS . JavaScript . CSS3 . HTML",
+      "Package": "2 to 5 LPA",
+      "expirydate": "20/9/2022",
+      "experiencedRequired": "1 to 4 years",
+      "expecteddateofjoining": "1/10/2022",
+      "noofemployeesrequired": "5",
+      "status": "open",
+      "description": "This position is responsible for the design and development ",
+      "location": "Hyderabad,Bangalore",
+      "company": "Infosys",
+      "companyUrl": "https://www.infosys.com/",
+      "companylogo": "https://www.pngitem.com/pimgs/m/1-15404_infosys-logo-png-transparent-png.png",
+      "employermail": "ashok7524@gmail.com"
+    },
+    {
+      "id": 3,
+      "position": "UI Developer",
+      "skillset": "HTML . CSS3 . Bootstrap . JavaScript",
+      "Package": "1 to 3 LPA",
+      "expirydate": "21/9/2022",
+      "experiencedRequired": "1 to 3 years",
+      "expecteddateofjoining": "10/10/2022",
+      "noofemployeesrequired": "3",
+      "status": "open",
+      "description": "This position is responsible for the design and development ",
+      "location": "Chennai,Vijayawada",
+      "company": "HCL",
+      "companyUrl": "https://www.hcltech.com/",
+      "companylogo": "https://www.hcltech.com/sites/default/files/2021-05/guideline_based_vectors-square.png?itok=KEUChzF3",
+      "employermail": "ram.sai@gmail.com"
+    },
+    {
+      "id": 4,
+      "position": "React.JS Developer",
+      "skillset": "HTML . CSS3 . Javascript . React.JS",
+      "Package": "2 to 6 LPA",
+      "expirydate": "5/10/2022",
+      "experiencedRequired": "1 to 4 years",
+      "expecteddateofjoining": "20/10/2022",
+      "noofemployeesrequired": "4",
+      "status": "open",
+      "description": "This position is responsible for the design and development",
+      "location": "pune,Hyderabad",
+      "company": "TCS",
+      "companyUrl": "https://www.tcs.com/",
+      "companylogo": "https://i0.wp.com/orissadiary.com/wp-content/uploads/2021/03/TCS.jpg?fit=400%2C400&ssl=1",
+      "employermail": "sai@gmail.com"
+    }
+  ],
+  "jobAccepted": [
+    {
+      "id": "3",
+      "position": "UI Developer",
+      "skillset": "HTML,CSS3,Bootstrap,JavaScript",
+      "Package": "1 to 3 LPA",
+      "expirydate": "21/9/2022",
+      "experiencedRequired": "1 to 3 years",
+      "expecteddateofjoining": "10/10/2022",
+      "noofemployeesrequired": "3",
+      "status": "open",
+      "description": "This position is responsible for the design and development ",
+      "location": "Chennai,Vijayawada",
+      "company": "HCL",
+      "companyUrl": "https://www.hcltech.com/",
+      "companylogo": "https://www.hcltech.com/sites/default/files/2021-05/guideline_based_vectors-square.png?itok=KEUChzF3",
+      "employermail": "ram.sai@gmail.com"
+    }
+  ],
+  "jobRejected": [
+    {
+      "id": "4",
+      "position": "React.JS Developer",
+      "skillset": "HTML,CSS3,Javascript,React.JS",
+      "Package": "2 to 6 LPA",
+      "expirydate": "5/10/2022",
+      "experiencedRequired": "1 to 4 years",
+      "expecteddateofjoining": "20/10/2022",
+      "noofemployeesrequired": "4",
+      "status": "open",
+      "description": "This position is responsible for the design and development of DRM/EDMCS and integrations.",
+      "location": "pune,Hyderabad",
+      "company": "TCS",
+      "companyUrl": "https://www.tcs.com/",
+      "companylogo": "https://i0.wp.com/orissadiary.com/wp-content/uploads/2021/03/TCS.jpg?fit=400%2C400&ssl=1",
+      "employermail": "sai@gmail.com"
+    }
+  ],
+  "jobPost": [
+    {
+      "id": "1",
+      "position": "UI Developer",
+      "skillset": "HTML5 . CSS3 . Javascript . React.js",
+      "Package": "1-3 Lakh",
+      "expirydate": "20/9/2022",
+      "experiencedRequired": "1 to 3 years",
+      "expecteddateofjoining": "17/9/2022",
+      "noofemployeesrequired": "4",
+      "status": "open",
+      "description": "This position is responsible for the design and development ",
+      "location": "Delhi/NCR",
+      "company": "Globallogic",
+      "companyUrl": "https://www.globallogic.com/in/",
+      "companylogo": "https://seeklogo.com/images/G/global-logic-logo-2A1079EB9D-seeklogo.com.png",
+      "employermail": "bavisetti.ashok@gmail.com"
+    },
+    {
+      "id": "2",
+      "position": "SoftwareEngineer",
+      "skillset": "React.JS . JavaScript . CSS3 . HTML",
+      "Package": "1-3 Lakh",
+      "expirydate": "20/9/2022",
+      "experiencedRequired": "1 to 4 years",
+      "expecteddateofjoining": "1/10/2022",
+      "noofemployeesrequired": "5",
+      "status": "open",
+      "description": "This position is responsible for the design and development ",
+      "location": "Bangalore/Bengaluru",
+      "company": "Infosys",
+      "companyUrl": "https://www.infosys.com/",
+      "companylogo": "https://www.pngitem.com/pimgs/m/1-15404_infosys-logo-png-transparent-png.png",
+      "employermail": "ashok7524@gmail.com"
+    },
+    {
+      "id": "3",
+      "position": "UI Developer",
+      "skillset": "HTML . CSS3 . Bootstrap . JavaScript",
+      "Package": "6-8 Lakh",
+      "expirydate": "21/9/2022",
+      "experiencedRequired": "1 to 3 years",
+      "expecteddateofjoining": "10/10/2022",
+      "noofemployeesrequired": "3",
+      "status": "open",
+      "description": "This position is responsible for the design and development ",
+      "location": "Mumbai/Pune",
+      "company": "HCL",
+      "companyUrl": "https://www.hcltech.com/",
+      "companylogo": "https://www.hcltech.com/sites/default/files/2021-05/guideline_based_vectors-square.png?itok=KEUChzF3",
+      "employermail": "ram.sai@gmail.com"
+    },
+    {
+      "id": "4",
+      "position": "React.JS Developer",
+      "skillset": "HTML . CSS3 . Javascript . React.JS",
+      "Package": "3-6 Lakh",
+      "expirydate": "5/10/2022",
+      "experiencedRequired": "1 to 4 years",
+      "expecteddateofjoining": "20/10/2022",
+      "noofemployeesrequired": "4",
+      "status": "open",
+      "description": "This position is responsible for the design and development",
+      "location": "Hyderabad/Secunderabad",
+      "company": "TCS",
+      "companyUrl": "https://www.tcs.com/",
+      "companylogo": "https://i0.wp.com/orissadiary.com/wp-content/uploads/2021/03/TCS.jpg?fit=400%2C400&ssl=1",
+      "employermail": "sai@gmail.com"
+    },
+    {
+      "id": "5",
+      "position": "React.js Developer",
+      "skillset": "HTML . CSS3 . BootStrap . JavaScript . React.JS",
+      "Package": "3-6 Lakh",
+      "expirydate": "25/09/2022",
+      "experiencedRequired": "1 to 3 years",
+      "expecteddateofjoining": "1/10/2022",
+      "noofemployeesrequired": "2",
+      "status": "open",
+      "description": "This position is responsible for the design and development",
+      "location": "Hyderabad/Secunderabad",
+      "company": "ADP",
+      "companyUrl": "https://in.adp.com/about-adp.aspx",
+      "companylogo": "https://image.shutterstock.com/image-photo/bucharest-romania-december-09-2019-260nw-1588116079.jpg",
+      "employermail": "ashok.bavi@gmail.com"
+    }
+  ],
+  "jobApplication": [
+    {
+      "jobapplicationId": "1",
+      "jobid": "1",
+      "status": "accepted",
+      "appliedBy": "john@gmail.com",
+      "createdOn": "1-oct-2022",
+      "modifiedOn": "1-oct-2022",
+      "commentFromOrganisation": "",
+      "coverLetter": "",
+      "updatedResume": "",
+      "expectedSalary": "2-3"
+    }
+  ],
+  "chatGroup": [
+    {
+      "id": "1",
+      "empid": "john@gmail.com",
+      "seekerid": "seeker@gmail.com",
+      "messages": [
+        {
+          "sender": "john",
+          "receiver": "seeker",
+          "msgcontent": "hello"
+        },
+        {
+          "sender": "seeker",
+          "receiver": "john",
+          "msgcontent": "how are you?"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "empid": "john@gmail.com",
+      "seekerid": "veena@gmail.com",
+      "messages": [
+        {
+          "sender": "john",
+          "receiver": "veena",
+          "msgcontent": "hello"
+        },
+        {
+          "sender": "veena",
+          "receiver": "john",
+          "msgcontent": "how are you?"
+        }
+      ]
+    }
+  ],
+  "CompanyFeedback": [
+    {
+      "id": 1,
+      "companyName": "GlobalLogic",
+      "rating": 5,
+      "comments": "Very Nice Company to work",
+      "commentdate": "Mon Jan 03 2022",
+      "commentBy": "John Smith"
+    },
+    {
+      "id": 2,
+      "companyName": "GlobalLogic",
+      "rating": 3,
+      "comments": "Working Culture",
+      "commentdate": "Wed Feb 16 2022",
+      "commentBy": "Bob Smith"
+    },
+    {
+      "id": 3,
+      "companyName": "GlobalLogic",
+      "rating": 4,
+      "comments": "Working Environment",
+      "commentdate": "Mon Sep 19 2022",
+      "commentBy": "Alice"
+    },
+    {
+      "companyName": "GlobalLogic",
+      "rating": 1,
+      "comments": "asdasdas",
+      "commentdate": "Mon Sep 19 2022",
+      "commentBy": "John Smith",
+      "id": 4
+    },
+    {
+      "companyName": "GlobalLogic",
+      "rating": 2,
+      "comments": "asdasdasd",
+      "commentdate": "Mon Sep 19 2022",
+      "commentBy": "John Smith",
+      "id": 5
+    }
+  ]
+}

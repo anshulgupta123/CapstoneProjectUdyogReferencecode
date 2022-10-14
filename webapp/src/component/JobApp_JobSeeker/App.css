@@ -1,0 +1,148 @@
+.container-m{
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    top:6rem
+    /* border: 1px dashed grey; */
+}
+.card-m{
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0 3px 8px 0 rgba(0,106,194,.2);
+}
+.btn-m{
+   display: flex;
+   justify-content: center;
+    width: 10rem;
+    float: right;
+    background-color: #10316B;
+}
+.hoverButton{
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 10px;
+}
+body{
+    background-color: #F2F7FF;
+}
+.messageTo{
+    height: 20px;
+    width:30px;
+    background-color: white;
+    background-image: url('https://img.favpng.com/5/9/11/logo-message-text-messaging-sms-png-favpng-S3qqvGdbYvqH7qbpjEUpXms04.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    border: none;
+}
+.btn-m:hover{
+    float: right;
+    --bs-btn-hover-bg:#FFE867;
+    --bs-btn-hover-color:black;
+}
+
+
+.img-m{
+    width: 2rem;
+    height: 2rem;
+}
+.logo{
+    margin-right: 10px;
+}
+.card-title-m{
+    display: flex;
+    align-items: center;
+}
+.badge{
+    margin-right: 10px;
+    background-color: #F2F7FF;
+    color: black;
+    padding: 10px;
+}
+.skiiDesc{
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+.cardFooter{
+    display: flex;
+    align-items: center;
+}
+.subDescription{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.jobappcontainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-height: 80vh;
+}
+.skillcard{
+    background-color: white;
+    width: 18rem;
+    padding: 10px;
+    position: relative;
+    height: fit-content;
+    top:6rem;
+    margin-bottom: 10px;
+    
+}
+.cardLeft{
+    margin-right: 10px;
+}
+.cardRight{
+    margin-left: 10px;
+}
+.skilltitle{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sideimage{
+    width: 5rem;
+}
+.leftfiltercontainer{
+    display: flex;
+
+    flex-direction: column;
+}
+
+.search-box{
+    width: 100%;
+
+}
+.card-container{
+    width: 100%;
+}
+.main-search{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 1px 3px 4px #b5c2da;
+
+}
+
+.search-container{
+    display: flex;
+}
+.sort{
+    float: right;
+    margin: 10px 0;
+}
+
+#sort{
+    padding: 10px;
+    margin-left: 10px;
+    background:white;
+    border: none;
+    border-radius: 10px;
+}
+.imgfeedPagelogo{
+    max-width: 100px;
+    max-height: 100px;
+}

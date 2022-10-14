@@ -1,0 +1,38 @@
+
+.footerBgColor{
+    background: #ffe867;
+}
+.footersocial{
+    font-size: xx-large;
+    padding-left: 10px;
+}
+
+
+.custom-shape-divider-bottom-1663144569 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1663144569 svg {
+    position: relative;
+    display: block;
+    width: calc(227% + 1.3px);
+    height: 89px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1663144569 .shape-fill {
+    fill: #FFE867;
+}
+
+.border-top-black{
+    border-top: 1px solid #10316B;
+}
+.text-justify{
+    text-align: justify;
+}
